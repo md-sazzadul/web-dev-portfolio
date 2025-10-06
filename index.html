@@ -41,111 +41,108 @@
           </li>
         </ul>
       </nav>
+
+      <!-- Banner -->
       <div class="banner">
         <div class="banner-content">
           <h4 class="banner-greetings dark-2">Hi, I am</h4>
           <h1 class="banner-title">Mary Hardy</h1>
           <p class="banner-description">
-            Shot what able cold new see hold.Friendly as an betrayed formerly
-            he. Morning because as to society behaved moments.
+            Friendly designer & developer passionate about creating clean,
+            efficient websites that deliver real value to clients worldwide.
           </p>
-          <button class="btn-primary">
+          <a class="btn-primary" href="files/Mary_Hardy_CV.pdf" download>
             <i class="fa-solid fa-download"></i> Download CV
-          </button>
-          <button class="btn-primary">
+          </a>
+          <a class="btn-primary" href="mailto:abc@def.com">
             <i class="fa-solid fa-phone"></i> Contact
-          </button>
+          </a>
         </div>
-        <img class="banner-profile-pic" src="images/hardy.png" alt="" />
+        <img
+          class="banner-profile-pic"
+          src="images/hardy.png"
+          alt="Mary Hardy profile picture"
+        />
       </div>
     </header>
 
     <main>
-      <section class="about secondary-bg">
+      <!-- About Section -->
+      <section class="about secondary-bg" id="about">
         <h3 class="section-title">About Me</h3>
         <p class="section-description">
-          I, m a designer & developer with a passion for web design. I enjoy
-          developing simple, clean and slick websites that provide real value to
-          the end user. Thousands of clients have procured exceptional resulfs
-          while working with me. Delivering work within time and budget which
-          meets clients requirements in our mata.
+          I am a designer & developer with a passion for web design. I enjoy
+          developing simple, clean, and slick websites that provide real value
+          to the end user.
         </p>
-        <div class="about-items">
-          <!-- .about-item*4>p.item-title+p.item-description -->
+        <dl class="about-items">
           <div class="about-item">
-            <p class="item-title">Name</p>
-            <p class="item-description">Mary Hardy</p>
+            <dt class="item-title">Name</dt>
+            <dd class="item-description">Mary Hardy</dd>
           </div>
           <div class="about-item">
-            <p class="item-title">Email</p>
-            <p class="item-description">abc@def.com</p>
+            <dt class="item-title">Email</dt>
+            <dd class="item-description">abc@def.com</dd>
           </div>
           <div class="about-item">
-            <p class="item-title">Date of Birth</p>
-            <p class="item-description">Dec 16, 1971</p>
+            <dt class="item-title">Date of Birth</dt>
+            <dd class="item-description">Dec 16, 1971</dd>
           </div>
           <div class="about-item">
-            <p class="item-title">From</p>
-            <p class="item-description">Dhaka, BD</p>
+            <dt class="item-title">From</dt>
+            <dd class="item-description">Dhaka, BD</dd>
           </div>
-        </div>
+        </dl>
       </section>
 
-      <!-- what is do section start -->
-      <section class="skills">
+      <!-- Skills Section -->
+      <section class="skills" id="skills">
         <h3 class="section-title text-center">What I do</h3>
         <p class="section-description text-center">
-          I have more than 10 years experience building software for clients all
-          over the world. Below is a quick overview of my main technical skill
-          sets and technologies i use. Want to find out more about my
-          experience? Check out my online resume and project portfolio.
+          With over 10 years of experience building software for clients
+          worldwide, here are my main technical skill sets and technologies I
+          use.
         </p>
 
         <div class="skills-container">
-          <!-- .skill*4>img+h4.skill-title+p.skill-description -->
           <div class="skill">
-            <img src="images/icons/js.png" alt="" />
+            <img src="images/icons/js.png" alt="JavaScript logo" />
             <h4 class="skill-title">Vanilla JavaScript</h4>
             <p class="skill-description">
-              List skill/technologies here. You can change the icon above to any
-              of the 1500+ FontAwesome 5 free icons available. Aenean commodo
-              ligula eget dolor.
+              Experienced in building dynamic web applications using JavaScript.
             </p>
           </div>
           <div class="skill">
-            <img src="images/icons/react.png" alt="" />
+            <img src="images/icons/react.png" alt="React logo" />
             <h4 class="skill-title">React</h4>
             <p class="skill-description">
-              List skill/technologies here. You can change the icon above to any
-              of the 1500+ FontAwesome 5 free icons available. Aenean commodo
-              ligula eget dolor.
+              Skilled in building modern, component-based frontends using React.
             </p>
           </div>
           <div class="skill">
-            <img src="images/icons/nodejs.png" alt="" />
+            <img src="images/icons/nodejs.png" alt="Node.js logo" />
             <h4 class="skill-title">Node.js</h4>
             <p class="skill-description">
-              List skill/technologies here. You can change the icon above to any
-              of the 1500+ FontAwesome 5 free icons available. Aenean commodo
-              ligula eget dolor.
+              Developing backend APIs and server-side applications with Node.js.
             </p>
           </div>
           <div class="skill">
-            <img src="images/icons/mongo.png" alt="" />
+            <img src="images/icons/mongo.png" alt="MongoDB logo" />
             <h4 class="skill-title">Mongodb</h4>
             <p class="skill-description">
-              List skill/technologies here. You can change the icon above to any
-              of the 1500+ FontAwesome 5 free icons available. Aenean commodo
-              ligula eget dolor.
+              Experienced with NoSQL database design and integration using
+              MongoDB.
             </p>
           </div>
         </div>
       </section>
 
-      <section class="resume">
-        <h3 class="section-title text-center">A summary of My Resume</h3>
+      <!-- Resume Section -->
+      <section class="resume" id="resume">
+        <h3 class="section-title text-center">My Resume</h3>
+
         <div class="resume-container">
-          <!-- .resume-column*2>h3.resume-column-title+.experience*3>h4.experience-title+h5.experience-sub-title+.experience-description -->
+          <!-- Education Column -->
           <div class="resume-column">
             <h3 class="resume-column-title">My Education</h3>
             <div class="experience">
@@ -153,109 +150,98 @@
               <h5 class="experience-sub-title">
                 Harvard University / 2015 - 2017
               </h5>
-              <div class="experience-description">
-                List skill/technologies here. You can change the icon above to
-                any of the 1500+ FontAwesome 5 free icons available. Aenean
-                commodo ligula eget dolor.
-              </div>
+              <p class="experience-description">
+                Focus on software engineering and data science projects.
+              </p>
             </div>
-            <hr />
             <div class="experience">
-              <h4 class="experience-title">Master in Computer Engineering</h4>
+              <h4 class="experience-title">Bachelor in Computer Science</h4>
               <h5 class="experience-sub-title">
-                Harvard University / 2015 - 2017
+                BRAC University / 2011 - 2015
               </h5>
-              <div class="experience-description">
-                List skill/technologies here. You can change the icon above to
-                any of the 1500+ FontAwesome 5 free icons available. Aenean
-                commodo ligula eget dolor.
-              </div>
-            </div>
-            <hr />
-            <div class="experience">
-              <h4 class="experience-title">Master in Computer Engineering</h4>
-              <h5 class="experience-sub-title">
-                Harvard University / 2015 - 2017
-              </h5>
-              <div class="experience-description">
-                List skill/technologies here. You can change the icon above to
-                any of the 1500+ FontAwesome 5 free icons available. Aenean
-                commodo ligula eget dolor.
-              </div>
+              <p class="experience-description">
+                Specialized in web development and machine learning.
+              </p>
             </div>
           </div>
+
+          <!-- Experience Column -->
           <div class="resume-column">
             <h3 class="resume-column-title">My Experience</h3>
             <div class="experience">
-              <h4 class="experience-title">Master in Computer Engineering</h4>
+              <h4 class="experience-title">Frontend Developer (Werkstudent)</h4>
               <h5 class="experience-sub-title">
-                Harvard University / 2015 - 2017
+                STEIN Infrastructure Management GmbH / 2022 - Present
               </h5>
-              <div class="experience-description">
-                List skill/technologies here. You can change the icon above to
-                any of the 1500+ FontAwesome 5 free icons available. Aenean
-                commodo ligula eget dolor.
-              </div>
+              <p class="experience-description">
+                Building UIs with React, integrating APIs, optimizing
+                performance, and implementing state management.
+              </p>
             </div>
-            <hr />
             <div class="experience">
-              <h4 class="experience-title">Master in Computer Engineering</h4>
+              <h4 class="experience-title">Intern / Software Developer</h4>
               <h5 class="experience-sub-title">
-                Harvard University / 2015 - 2017
+                BRAC University / 2019 - 2021
               </h5>
-              <div class="experience-description">
-                List skill/technologies here. You can change the icon above to
-                any of the 1500+ FontAwesome 5 free icons available. Aenean
-                commodo ligula eget dolor.
-              </div>
-            </div>
-            <hr />
-            <div class="experience">
-              <h4 class="experience-title">Master in Computer Engineering</h4>
-              <h5 class="experience-sub-title">
-                Harvard University / 2015 - 2017
-              </h5>
-              <div class="experience-description">
-                List skill/technologies here. You can change the icon above to
-                any of the 1500+ FontAwesome 5 free icons available. Aenean
-                commodo ligula eget dolor.
-              </div>
+              <p class="experience-description">
+                Developed web applications using JavaScript, Node.js, and
+                MongoDB.
+              </p>
             </div>
           </div>
         </div>
+
         <div class="text-center resume-download-cv">
-          <button class="btn-primary">
+          <a class="btn-primary" href="files/Mary_Hardy_CV.pdf" download>
             <i class="fa-solid fa-download"></i> Download CV
-          </button>
+          </a>
         </div>
       </section>
     </main>
 
     <footer class="secondary-bg">
       <div class="footer-column">
-        <h3 class="section-title">Lets Connect</h3>
+        <h3 class="section-title">Let's Connect</h3>
         <p>
-          Please fill out the form on this section to contact with me or call
-          between 9:00 A.M and 8.00 P.M ET, Sunday through Thursday.
+          Fill out the form below or call between 9:00 A.M and 8:00 P.M ET,
+          Sunday through Thursday.
         </p>
         <div>
-          <a href=""><img src="images/icons/facebook.png" alt="" /></a>
-          <a href=""><img src="images/icons/insta.png" alt="" /></a>
-          <a href=""><img src="images/icons/twitter.png" alt="" /></a>
+          <a href="#"><img src="images/icons/facebook.png" alt="Facebook" /></a>
+          <a href="#"><img src="images/icons/insta.png" alt="Instagram" /></a>
+          <a href="#"><img src="images/icons/twitter.png" alt="Twitter" /></a>
         </div>
       </div>
       <div class="footer-column">
-        <h3 class="section-title">Let’s Inbox me</h3>
-        <form action="">
-          <input type="text" name="" id="" placeholder="Your Name" />
-          <input type="email" name="" id="" placeholder="Your Email" />
+        <h3 class="section-title">Contact Me</h3>
+        <form action="#" method="POST">
+          <label for="name" class="sr-only">Your Name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Your Name"
+            required
+          />
+
+          <label for="email" class="sr-only">Your Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Your Email"
+            required
+          />
+
+          <label for="message" class="sr-only">Message</label>
           <textarea
-            name=""
-            id=""
-            cols="30"
-            rows="20"
+            id="message"
+            name="message"
             placeholder="Message"
+            rows="6"
+            required
           ></textarea>
+
           <input class="btn-primary" type="submit" value="Submit" />
         </form>
       </div>
