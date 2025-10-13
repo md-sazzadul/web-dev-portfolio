@@ -151,31 +151,25 @@ body {
   text-align: center;
 }
 
-/* ================== TYPOGRAPHY ================== */
-.section-title {
-  font-size: 2.2rem;
-  font-weight: 700;
-  color: #181818;
-  margin-bottom: 0.5rem;
-}
-
-.section-description {
-  font-size: 1rem;
-  color: #757575;
-  margin-bottom: 2rem;
-}
-
-.text-center {
-  text-align: center;
-}
-
 /* ================== HEADER ================== */
 .header {
-  background-image: url("../images/developer.png"),
-    url("../images/header_bg.png");
-  background-repeat: no-repeat;
-  background-position: top left, bottom right;
-  padding: 40px 5%;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background-size: 200% 200%;
+  animation: gradient-shift 15s ease infinite;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('data:image/svg+xml,<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="grid" width="100" height="100" patternUnits="userSpaceOnUse"><path d="M 100 0 L 0 0 0 100" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1"/></pattern></defs><rect width="100" height="100" fill="url(%23grid)"/></svg>');
+  opacity: 0.5;
 }
 
 nav {
@@ -184,33 +178,52 @@ nav {
   justify-content: space-between;
   max-width: var(--max-width);
   margin: 0 auto;
+  padding: 1.5rem 2rem;
+  position: relative;
+  z-index: 10;
 }
 
 .nav-title {
+  font-family: var(--font-display);
   font-weight: 800;
-  font-size: 2.5rem;
+  font-size: 2rem;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-title span {
+  color: var(--accent-color);
 }
 
 nav ul {
   display: flex;
   align-items: center;
-  gap: 2rem;
-  flex-wrap: wrap;
-}
-
-nav ul li {
+  gap: 2.5rem;
   list-style: none;
 }
 
 nav ul li a {
   text-decoration: none;
-  font-size: 1.1rem;
-  color: var(--dark-color);
-  transition: color 0.3s ease;
+  font-size: 1rem;
+  font-weight: 500;
+  color: white;
+  transition: all 0.3s ease;
+  position: relative;
 }
 
-nav ul li a:hover {
-  color: var(--primary-color);
+nav ul li a:not(.btn-primary)::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--accent-color);
+  transition: width 0.3s ease;
+}
+
+nav ul li a:not(.btn-primary):hover::after {
+  width: 100%;
 }
 
 /* ================== BANNER ================== */
