@@ -1,10 +1,28 @@
 /* ================== BASE STYLES ================== */
 :root {
-  --primary-color: #fd6e0a;
-  --dark-color: #474747;
-  --light-bg: #fff8f3;
-  --font-base: "Open Sans", sans-serif;
-  --max-width: 1140px;
+  --primary-color: #6366f1;
+  --primary-dark: #4f46e5;
+  --primary-light: #818cf8;
+  --accent-color: #f59e0b;
+  --dark-color: #1e293b;
+  --light-bg: #f8fafc;
+  --card-bg: #ffffff;
+  --text-primary: #0f172a;
+  --text-secondary: #64748b;
+  --font-base: "Inter", sans-serif;
+  --font-display: "Playfair Display", serif;
+  --max-width: 1200px;
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 20px rgba(99, 102, 241, 0.08);
+  --shadow-lg: 0 10px 40px rgba(99, 102, 241, 0.12);
+  --gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  --gradient-warm: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
