@@ -231,42 +231,58 @@ nav ul li a:not(.btn-primary):hover::after {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
-  gap: 2rem;
+  gap: 4rem;
   max-width: var(--max-width);
-  margin: 2rem auto;
+  margin: 0 auto;
+  padding: 6rem 2rem;
+  position: relative;
+  z-index: 10;
 }
 
 .banner-content {
   flex: 1;
-  min-width: 280px;
-}
-
-.banner-content a {
-  margin-right: 0.5rem;
+  animation: fadeInUp 0.8s ease-out;
 }
 
 .banner-greetings {
-  font-size: 1.5rem;
-  font-weight: 600;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 0.5rem;
+  letter-spacing: 1px;
 }
 
 .banner-title {
-  font-weight: bold;
-  font-size: 3.5rem;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 4.5rem;
+  color: white;
   margin: 0.5rem 0;
+  line-height: 1.1;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 .banner-description {
-  font-size: 1rem;
-  color: #757575;
-  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.85);
+  margin: 1.5rem 0 2.5rem;
+  line-height: 1.8;
+  max-width: 550px;
+}
+
+.banner-buttons {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
 }
 
 .banner-profile-pic {
   width: 100%;
-  max-width: 500px;
-  border-radius: 10px;
+  max-width: 450px;
+  border-radius: 30px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  animation: float 6s ease-in-out infinite;
+  border: 5px solid rgba(255, 255, 255, 0.2);
 }
 
 /* ================== MAIN ================== */
