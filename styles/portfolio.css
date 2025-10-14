@@ -289,35 +289,71 @@ nav ul li a:not(.btn-primary):hover::after {
 main {
   max-width: var(--max-width);
   margin: 0 auto;
-  padding: 2rem 5%;
+  padding: 0 2rem;
 }
 
 main section {
-  margin: 6rem 0;
-  text-align: center;
+  margin: 8rem 0;
 }
 
 /* ================== ABOUT ================== */
 .about {
-  border-radius: 10px;
-  padding: 4rem 2rem;
+  background: var(--card-bg);
+  border-radius: 30px;
+  padding: 5rem 3rem;
+  box-shadow: var(--shadow-lg);
+  position: relative;
+  overflow: hidden;
+}
+
+.about::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  right: -50%;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(
+    circle,
+    rgba(99, 102, 241, 0.05) 0%,
+    transparent 70%
+  );
 }
 
 .about-items {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  gap: 2rem;
-  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2.5rem;
+  margin-top: 3rem;
+  position: relative;
 }
 
 .about-item {
-  flex: 1 1 200px;
+  text-align: center;
+  padding: 1.5rem;
+  background: var(--light-bg);
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.about-item:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-md);
+}
+
+.item-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 0.5rem;
 }
 
 .item-description {
-  font-weight: 600;
-  margin-top: 0.5rem;
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: var(--text-primary);
 }
 
 /* ================== SKILLS ================== */
