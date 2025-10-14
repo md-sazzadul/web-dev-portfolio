@@ -71,13 +71,13 @@ portfolio-website/
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/yourusername/portfolio-website.git
+   git clone https://github.com/md-sazzadul/web-dev-portfolio.git
    ```
 
 2. **Navigate to the project directory**
 
    ```bash
-   cd portfolio-website
+   cd web-dev-portfolio
    ```
 
 3. **Open in browser**
