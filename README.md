@@ -220,7 +220,7 @@ Add new sections following the existing structure:
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/yourusername/portfolio-website/issues).
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/md-sazzadul/web-dev-portfolio/issues).
 
 1. Fork the project
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
@@ -228,18 +228,13 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 👤 Author
 
-**Mary Hardy**
+**Md Sazzadul Islam**
 
-- Email: abc@def.com
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
-- Portfolio: [yourportfolio.com](https://yourportfolio.com)
+- Email: md.sazzadul.islam15@gmail.com
+- GitHub: [@md-sazzadul](https://github.com/md-sazzadul)
+- LinkedIn: [Md Sazzadul Islam](https://www.linkedin.com/in/md-sazzadul-islam15/)
 
 ## 🙏 Acknowledgments
 
@@ -260,6 +255,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Note**: Replace placeholder content (email, GitHub links, screenshots) with your actual information before deploying.
-
-Made with ❤️ by Mary Hardy
+Made with ❤️ by Md Sazzadul Islam
